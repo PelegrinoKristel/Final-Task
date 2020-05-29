@@ -1,0 +1,43 @@
+
+html,body{
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    align-content: center;
+}
+
+.card{
+    padding: 10px;
+    height: 310px;
+    margin: 0 auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.card-header h3{
+    color: white;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: rgb(245, 39, 217);
+    color: black;
+    border:0;
+}
+
+.login_btn{
+    color: black;
+    background-color: rgb(245, 39, 217);
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: rgb(190, 31, 169);
+}
